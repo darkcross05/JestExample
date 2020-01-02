@@ -1,0 +1,32 @@
+{
+  "name": "jest1",
+  "version": "1.0.0",
+  "description": "Unit test with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "jest",
+    "unit",
+    "test"
+  ],
+  "author": "Juan Pablo Mariaca",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@storybook/html": "^5.2.8",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
