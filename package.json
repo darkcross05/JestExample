@@ -20,7 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
-    "@storybook/html": "^5.2.8",
+    "@storybook/html": "^6.5.13",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
